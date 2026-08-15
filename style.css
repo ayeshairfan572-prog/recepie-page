@@ -18,6 +18,7 @@ box-shadow: 0px 8px 20px rgb(37, 21, 21);
     height: 320px;
     background-size: cover;
     background-repeat: no-repeat;
+     border-radius: 12px;
     
 }
 .img:hover{
@@ -26,6 +27,7 @@ box-shadow: 0px 8px 20px rgb(37, 21, 21);
     width: 550px;
     height: 320px;
     background-size: cover;
+     border-radius: 12px;
 }
 h1{
     color: rgb(37, 28, 5);
