@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Document_files/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <center>
  <div class="container"> 
-         <div class="img">
+         <div class="img" >
             <br>
         <h1>today feature recepie</h1>
         </div>
@@ -18,19 +18,19 @@
      <hr width="550">
      
      <div class="icon">
-        <div class="icon1"><img src="./Document_files/icons8-clock-50.png" width="40">
+        <div class="icon1"><img src="icons8-clock-50.png" width="40">
             <span class="num">25</span>
             <br>
             <span class="item">minute</span>
         </div>
         <div class="icon2">
-            <img src="./Document_files/icons8-open-book-50.png" alt="" width="40">
+            <img src="icons8-open-book-50.png" alt="" width="40">
             <span class="num">7</span>
             <br>
             <span class="item">ingridient</span>
         </div>
         <div class="icon3">
-            <img src="./Document_files/icons8-human-64.png" width="40">
+            <img src="icons8-human-64.png" width="40">
             <span class="num">6-8</span>
             <br>
             <span class="item">serving</span>
@@ -45,53 +45,14 @@
      <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Praesentium rem voluptatibus dolores deserunt repudiandae dicta nemo quis, sapiente <br> perferendis, odio officiis modi molestias reiciendis culpa velit possimus temporibus illo dolorum.</p>
     <br><br><br><br>
     
-    <a href="https://www.allrecipes.com/recipe/23431/to-die-for--alfredo/fettuccine" target="_blank"><button> view recepie</button></a>
+    <a href="https://www.allrecipes.com/recipe/23431/to-die-for--alfredo/fettuccine" target="_blank"><button > view recepie</button></a>
  </div>
 
 
      
         
-    
+    </div>
 </center>
     
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
-
-
-</body></html>
+</body>
+</html>
